@@ -31,7 +31,7 @@ public class GugudanServlet extends HttpServlet {
 		out.println("			<td>"+dan*i+"</td>");
 		out.println("		</tr>");
 		}
-		
+		System.out.println();
 		out.println("</table>");
 	}
 
